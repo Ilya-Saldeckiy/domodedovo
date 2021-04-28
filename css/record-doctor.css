@@ -1,0 +1,146 @@
+.section__record__doctor{
+    padding-top: 86px;
+    padding-bottom: 96px;
+}
+
+.record__doctor-form-position{
+    width: 528px;
+}
+
+.record-doctors__caption-form{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.record-doctors__input-form{
+    width: 100%;
+    height: 48px;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    margin-bottom: 36px;
+}
+
+.record-doctors__textarea-form{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #bbbbbb;
+    resize: both;
+    outline: none;
+    margin-bottom: 31px;
+}
+
+.record-doctor__description{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 49px;
+}
+
+.checkbox-position-record{
+    display: flex;
+    position: relative;
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+    transition-property: color,border,border-bottom,outline;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.checkbox-span,.input-price{
+    transition-property: color,border,border-bottom,outline;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+  
+.checkbox-span {
+    display: inline-block;
+    align-items: center;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.checkbox-span a{
+    color: #009cf2;
+}
+  
+.checkbox-span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #999999;
+}
+  
+.checkbox-span::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url('../img/check_white.png') 50% no-repeat;
+    background-color: unset;
+    top: 4px;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    opacity: 0;
+    text-align: center;
+}
+  
+.checkbox:checked + .checkbox-span {
+    background-color: #fff;
+}
+
+.checkbox:checked + .checkbox-span::after {
+    opacity: 1;
+    background-color: #009cf2;
+}
+
+.checkbox:checked + .checkbox-span::before {
+    border: 1px solid #009cf2;
+}
+
+.check-div{
+    position: relative;
+}
+
+.record__doctors-btn{
+    width: 352px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #067881;
+    margin-top: 31px;
+}
+
+.record__doctors-image{
+    width: 100%;
+    max-width: 513px;
+    height: 441px;
+    border: 1px solid #dddddd;
+}
+
+.record__doctor-position{
+    display: flex;
+    align-items: flex-start;
+}
+
+.record__doctor-form-position{
+    margin-right: auto;
+}

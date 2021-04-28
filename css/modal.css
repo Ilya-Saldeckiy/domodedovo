@@ -1,0 +1,441 @@
+.modal {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: -1000px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: auto;
+    padding: 73px 0px;
+}
+
+.popup-close1{
+    position: absolute;
+	top: 0px;
+	right: 0px;
+    background: url('../img/ico_x.svg') center no-repeat;
+    background-color: none;
+    width: 70px;
+    height: 70px;
+    border: none;
+}
+
+.modal_active {
+    position: fixed;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+}
+
+.modal__content{
+    background-color: #fff;
+    position: relative;
+    padding: 36px 40px 40px;
+    max-width: 1233px;
+    width: 100%;
+}
+
+.second-modal-close{
+    top: 0;
+}
+
+.modal__list-analiz-caption{
+    margin-bottom: 61px;
+    font-size: 24.1px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000000;
+    padding-right: 90px;
+}
+
+.btn__second-modal-position{
+    border-bottom: 1px solid #eeee;
+    margin-bottom: 40px;
+}
+
+.btn__second-modal{
+    width: 145px;
+    background-color: unset;
+    border-bottom: 2px solid unset;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.btn__is-active{
+    border-bottom: 2px solid #00b388;
+    color: #00b388;
+}
+
+.btn__second-modal-position{
+    border-bottom: 1px solid #eeee;
+    margin-bottom: 40px;
+}
+
+.btn__second-modal{
+    width: 145px;
+    background-color: unset;
+    border-bottom: 2px solid unset;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.btn__is-active{
+    border-bottom: 2px solid #00b388;
+    color: #00b388;
+}
+
+.modal__list-analiz-text-caption{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.modal__list-analiz-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.modal__list-2{
+    list-style-image: url('../img/check_green.png');
+    padding-left: 23px;
+}
+
+.modal__list-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 50px;
+}
+
+.modal__list-preparation-caption{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.modal__list-preparation-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.popup-fade-2 {
+	display: none;
+}
+.popup-fade-2:before {
+	content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+
+.popup-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.popup-close1{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.text-btn{
+    display: none;
+}
+
+.active-btn-modal{
+    display: block;
+}
+
+.modal-model h3{
+    font-size: 20px;
+    margin: 1.8em 0 24px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.modal-model p{
+    margin: 24px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.modal-model h2{
+    font-size: 1.5rem;
+    margin: 1.8em 0 24px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.modal-model ul{
+    margin: 24px 0;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+table tbody tr:first-child td{
+    border-top: 1px solid #eee;
+}
+
+table td {
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table.highlighted tbody tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+table td:first-child {
+    border-left: 0;
+}
+
+table td, table th {
+    padding: 10px 16px;
+}
+
+.table-responsive, table {
+    margin: 3rem 0;
+}
+
+.table-responsive {
+    overflow: auto;
+}
+
+.table-responsive table {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    font-size: 16px;
+}
+.modal-model a{
+    color: #00a9e0;
+    text-decoration: underline;
+}
+
+.modal-model a:hover{
+    text-decoration: none;
+}
+
+.detail__content>:last-child{
+    margin-bottom: 0;
+}
+
+.detail__content>:first-child {
+    margin-top: 0;
+}
+
+.alert--danger {
+    color: #f8485e;
+}
+
+.alert {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 24px 0;
+}
+
+.alert:before {
+    content: "";
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    margin-right: 16px;
+}
+
+.alert--danger:before {
+    background-image: url(/local/templates/delement/frontend/assets/styles/../icons/ico_alert.svg);
+}
+
+.position__modal-text{
+    display: flex;
+    align-items: flex-start;
+}
+
+.modal-text-position{
+    width: 752px;
+    margin-right: auto;
+}
+
+.modal__info-analiz{
+    width: 312px;
+    background-color: #f5f5f5;
+    padding-left: 24px;
+    padding-top: 28px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    position: relative;
+}
+
+.modal__caption{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.modal__code{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #000000;
+}
+
+.border-info{
+    padding-bottom: 23px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    margin-bottom: 24px;
+}
+
+.modal__price{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #067881;
+    margin-bottom: 16px;   
+}
+
+.modal__dop{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.modal__flex{
+    display: flex;
+}
+
+.btn__tooltipe{
+    width: 24px;
+    height: 24px;
+    background: url('../img/ico_help.png') 50% no-repeat;
+}
+
+.modal-price-text{
+    margin-right: auto;
+}
+
+.modal-info-btn{
+    width: 192px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    background: url('../img/ico_cart_white.svg') 17px 10px no-repeat;
+    background-color: #067881;
+    padding-left: 15px;
+    transition: background-color .3s ease-in-out;
+}
+
+.modal-info-btn:hover{
+    background-color: #1fa0aa;
+}
+
+.tooltip__text{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.tooltip__block{
+    width: 304px;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 21px;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.tooltipe-1{
+    left: -52px;
+    top: 122px;
+}
+
+.tooltipe-2{
+    left: -52px;
+    top: 265px;
+}
+
+.btn__tooltipe-1:hover + .tooltipe-1{
+    opacity: 1;
+    z-index: 10;
+}
+
+.btn__tooltipe-1:active + .tooltipe-1{
+    opacity: 1;
+    z-index: 10;
+}
+
+.btn__tooltipe-2:hover + .tooltipe-2{
+    opacity: 1;
+    z-index: 10;
+}
+
+.btn__tooltipe-2:active + .tooltipe-2{
+    opacity: 1;
+    z-index: 10;
+}
+
+.tooltip__block::after{
+    content: " ";
+    width: 20px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    transform: matrix(-0.5, -0.5, -0.5, 0.5, 0, 0);
+    left: 290px;
+    top: 8px;
+}
