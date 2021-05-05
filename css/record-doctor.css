@@ -22,6 +22,8 @@
     border: 1px solid #bbbbbb;
     outline: none;
     margin-bottom: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .record-doctors__textarea-form{
@@ -115,6 +117,7 @@
 
 .check-div{
     position: relative;
+    margin-top: 36px;
 }
 
 .record__doctors-btn{
@@ -143,4 +146,64 @@
 
 .record__doctor-form-position{
     margin-right: auto;
+}
+
+.feedback-doctors__textarea-form{
+    height: 200px;
+}
+
+.input-date{
+    background: url('../img/ico_calendar.svg') 50% no-repeat;
+    width: 20px;
+    height: 24px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: default;
+}
+
+.table-responsive, table{
+    margin: 0;
+}
+
+.calendar-wrapper .Sunday {
+    background: rgba(6, 120, 129, 0.3);
+}
+
+.calendar-wrapper .CurrDay {
+    background: rgba(6, 120, 129, 0.3);
+}
+
+.calendar-wrapper table{
+    font-family: initial;
+}
+
+.calendar-wrapper{
+    box-shadow: 0 0 5px #999;
+}
+
+.date-position{
+    position: relative;
+    margin-bottom: 36px;
+}
+
+.calendar-open{
+    display: block !important;
+}
+
+.nav__item-open{
+    position: relative;
+}
+
+.nav__item-open::after{
+    content: "";
+    width: 105%;
+    border-bottom: 2px solid #067881;
+    position: absolute;
+    left: -4px;
+    bottom: -19px;
+}
+
+.record-doctors__input-form:last-of-type{
+    margin-bottom: 0px;
 }

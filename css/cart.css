@@ -1,0 +1,375 @@
+.cart__item-position{
+    display: flex;
+    align-items: flex-start;
+}
+
+.cart__text{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 15px;
+    width: 630px;
+}
+
+.cart__text-decoration{
+    color: #000000;
+}
+
+.researches-table__link{
+    width: 655px;
+}
+
+.price{
+    font-size: 16px;
+    font-weight: 500;
+    color: #067881;
+}
+
+.upper-price,.researches__upper-deadline,.researches__upper-code{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #999999;
+    margin-right: 0;
+}
+
+.researches__upper-deadline,.researches__upper-code{
+    margin-right: 105px;
+}
+
+.researches__upper-line{
+    margin-right: auto;
+}
+
+.cart__btn{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url('../img/ico_x.svg') 50% no-repeat;
+    background-size: cover;
+    background-color: unset;
+}
+
+.cart-table__item{
+    padding-bottom: 35px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.cart-table__item{
+    margin-bottom: 47px;
+}
+
+.select,.select__posotion {
+    min-width: 0;
+    width: 100%;
+    max-width: 352px;
+    margin-top: 10px;
+}
+
+.form-file__label, .form-input,.selectric {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #bbb;
+    border-radius: 0;
+    height: 48px;
+    padding-left: 15px;
+    padding-right: 7px;
+}
+
+.selectric {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    background: #f8f8f8;
+    position: relative;
+    overflow: hidden;
+}
+
+.selectric {
+    padding-right: 40px;
+    line-height: 48px;
+    background-color: #fff;
+}
+
+.selectric .label {
+    height: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    color: inherit;
+    margin: 0;
+}
+
+.selectric-open {
+    z-index: 1;
+}
+
+.selectric .button {
+    font-size: 0;
+    background-color: transparent;
+    width: 34px;
+}
+
+.selectric .button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px;
+    background-color: #fff;
+    color: #bbb;
+    text-align: center;
+    height: 100%;
+}
+
+.selectric-items {
+    background-color: #fff !important;
+    padding: 24px;
+}
+
+.selectric .button:after{
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: url('../img/arrow_down_select.svg') 50% no-repeat;
+}
+
+.selectric-items li,.selectric-items li.highlighted{
+    background: #fff;
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.selectric .label{
+    font-size: 13px;
+    font-weight: 300;
+    color: #000;
+}
+
+.selectric{
+    padding-left: 16px;
+}
+
+.selectric-open .selectric {
+    outline: 0;
+    border-color: #00a9e0;
+}
+
+.selectric-items li{
+    padding: 8px;
+}
+
+.selectric-items{
+    border-top: none;
+    padding-top: 27px;
+    padding-left: 24px;
+    padding-bottom: 19px;
+    padding-right: 24px;
+}
+
+.selectric-items:focus{
+    outline: none;
+}
+
+.selectric-scroll::-webkit-scrollbar {
+    width: 3px;
+}
+
+.selectric-scroll::-webkit-scrollbar-track {
+    border-radius: 100%;
+    width: 1px;
+    background-color: #ddd;
+}
+
+.selectric-scroll::-webkit-scrollbar-thumb{
+    background: #999;
+    width: 3px;
+    position: absolute;
+}
+
+.selectric-items li:hover{
+    background-color: #fff;
+    color: #00a9e0;
+}
+
+.selectric-items .selectric-scroll {
+    height: 100%;
+    overflow: auto;
+    padding-right: 64px;
+}
+
+.researches__upper-deadline{
+    width: 75px;
+}
+
+.cart-item__link{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    display: block;
+    color: #009cf2;
+    padding-left: 24px;
+    position: relative;
+    top: -16px;
+    margin-bottom: -25px;
+}
+
+.cart-item__link::before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url('../img/ico_complex.svg') no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background-size: cover;
+}
+
+.checkbox-span::before{
+    top: 8px;
+}
+
+.checkbox-span::after{
+    top: 8px;
+}
+
+.checkbox:checked + .checkbox-span::before {
+    border: 1px solid #067881;
+}
+
+.checkbox:checked + .checkbox-span::after {
+    opacity: 1;
+    background-color: #067881;
+}
+
+.checkbox-span{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.check-div{
+    margin: 0;
+}
+
+.cart__checkbox-line{
+    display: flex;
+    align-items: center;
+}
+
+.cart__last-item{
+    margin-bottom: 0px;
+}
+
+.label{
+    margin-right: auto;
+}
+
+.cart__checkbox-line{
+    padding-right: 148px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.researches__upper-price{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #067881;
+}
+
+.total__price-text{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #000000;
+    padding-right: 90px;
+    width: 100%;
+    text-align: right;
+    padding-top: 31px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 32px;
+}
+
+.total-price{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #067881;
+    margin-left: 10px;
+}
+
+.cart__submit-btn{
+    width: 352px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #067881;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    margin-left: auto;
+}
+
+.cart-section{
+    padding-top: 86px;
+    padding-bottom: 96px;
+}
+
+.delete-item{
+    display: none;
+}
+
+.cart__modal-content{
+    max-width: 528px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 39px;
+    padding-bottom: 40px;
+}
+
+.cart__modal-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 41px;
+}
+
+.record-doctors__input-form{
+    margin-bottom: 31px;
+}
+
+.record-doctors__input-form:last-of-type {
+    margin-bottom: 31px;
+}
+
+.checkbox-span__modal{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.modal-cart__btn{
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #067881;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 31px;
+}
+
+.cart-modal__caption{
+    margin-bottom: 35px;
+}

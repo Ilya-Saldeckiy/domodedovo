@@ -46,7 +46,7 @@
                 <nav class="nav">
                     <ul class="list-reset nav__menu anchor">
                         <li class="nav__item"><a href="analiz.html">Анализы и&nbsp;цены</a></li>
-                        <li class="nav__item"><a href="doctors.html">Медицинские услуги</a></li>
+                        <li class="nav__item nav__item-open"><a href="doctors.html">Медицинские услуги</a></li>
                         <li class="nav__item"><a href="organization.html">Для организаций</a></li>
                         <li class="nav__item"><a href="contacts.html">Контакты</a></li>
                     </ul>
@@ -55,36 +55,77 @@
         </section>
     </header>
     <main>
-        <div class="container section__record__doctor">
-            <h2 class="main-caption">Запись на приём</h2>
-            <div class="record__doctor-position">
-                <div class="record__doctor-form-position">
-                    <p class="record-doctor__description">
-                        Чтобы не тратить время на ожидание в очереди, мы рекомендуем Вам заранее записаться на прием в наш медицинский центр. Оставьте свои контактные данные, и наш администратор свяжется с Вами, чтобы согласовать дату и время приёма.
-                    </p>
-                    <form class="record__doctor-form">
-                        <span class="record-doctors__caption-form">Ваши ФИО</span>
-                        <input class="record-doctors__input-form" type="text">
-                        <span class="record-doctors__caption-form">Ваш телефон</span>
-                        <input class="record-doctors__input-form" type="tel">
-                        <span class="record-doctors__caption-form">Ваш email</span>
-                        <input class="record-doctors__input-form" type="email">
-                        <span class="record-doctors__caption-form">Комментарий</span>
-                        <textarea class="record-doctors__textarea-form"></textarea>
-                        <label for="check" class="label">
-                            <div class="check-div">
-                                <input class="checkbox" type="checkbox" name="check" id="check">
-                                <span class="checkbox-span">Я принимаю условия <a href="#">пользовательского соглашения</a> и даю согласие на обработку <a href="#">персональных данных</a></span>
-                            </div>  
-                        </label>
-                        <button type="submit" class="btn record__doctors-btn">Записаться</button>
-                    </form>
-                </div>
-                <div>
-                    <img class="record__doctors-image" src="img/banner_zaglushka.jpg" alt="">
+        <section class="doctors-block">
+            <div class="container">
+                <h2 class="main-caption">Медицинские услуги</h2>
+                <div class="doctors-block__position">
+                    <div class="doctors-card doctors-block__card">
+                        <div class="doctors__img-position">
+                            <img src="img/vrachi_1.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="doctors__name">Борзакова Светлана Николаевна</p>
+                            <p class="doctors__proffesio">Педиатр, Инфекционист</p>
+                            <p class="doctors__work">Стаж: <span class="work-decorate">23 года</span></p>
+                            <ul class="list-reset doctors__list">
+                                <li class="doctors__item">Кандидат медицинских наук</li>
+                            </ul>
+                            <p class="description__price-doctors">Стоимость приёма:</p>
+                            <p class="price-doctors">2 200 р.</p>
+                            <button class="btn doctors-btn">Записаться на приём</button>
+                        </div>
+                    </div>
+                    <div class="doctors-card doctors-block__card">
+                        <div class="doctors__img-position">
+                            <img src="img/vrachi_2.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="doctors__name">Милютина Людмила Никоновна</p>
+                            <p class="doctors__proffesio">Педиатр, Инфекционист</p>
+                            <p class="doctors__work">Стаж: <span class="work-decorate">57 лет</span></p>
+                            <ul class="list-reset doctors__list">
+                                <li class="doctors__item">Доктор медицинских наук</li>
+                                <li class="doctors__item">Врач высшей категории</li>
+                            </ul>
+                            <p class="description__price-doctors">Стоимость приёма:</p>
+                            <p class="price-doctors">2 750 р.</p>
+                            <button class="btn doctors-btn">Записаться на приём</button>
+                        </div>
+                    </div>
+                    <div class="doctors-card doctors-block__card">
+                        <div class="doctors__img-position">
+                            <img src="img/vrachi_3.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="doctors__name">Рейзис Ара Романовна</p>
+                            <p class="doctors__proffesio">Гепатолог, Инфекционист, Педиатр</p>
+                            <p class="doctors__work">Стаж: <span class="work-decorate">60 лет</span></p>
+                            <ul class="list-reset doctors__list">
+                                <li class="doctors__item">Профессор</li>
+                                <li class="doctors__item">Врач высшей категории</li>
+                            </ul>
+                            <p class="description__price-doctors">Стоимость приёма:</p>
+                            <p class="price-doctors">4 000 р.</p>
+                            <button class="btn doctors-btn">Записаться на приём</button>
+                        </div>
+                    </div>
+                    <div class="doctors-card doctors-block__card">
+                        <div class="doctors__img-position">
+                            <img src="img/vrachi_4.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="doctors__name">Коваль Людмила Валерьевна</p>
+                            <p class="doctors__proffesio">Педиатр</p>
+                            <p class="doctors__work">Стаж: <span class="work-decorate">11 лет</span></p>
+                            <p class="description__price-doctors">Стоимость приёма:</p>
+                            <p class="price-doctors">1 500 р.</p>
+                            <button class="btn doctors-btn">Записаться на приём</button>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container">

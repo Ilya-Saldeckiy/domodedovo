@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/calendar.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/datepicker.css">
     <link rel="stylesheet" href="css/record-doctor.css">
     <link rel="preload" href="font/MuseoSansCyrl300.ttf" as="font">
 	<link rel="preload" href="font/MuseoSansCyrl500.ttf" as="font">
@@ -22,6 +24,7 @@
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/iquery-ui.js"></script>
+    <script src="js/calendar.js"></script>
 </head>
 <body>
     <header>
@@ -56,28 +59,26 @@
     </header>
     <main>
         <div class="container section__record__doctor">
-            <h2 class="main-caption">Запись на приём</h2>
+            <h2 class="main-caption">Получить результаты анализов</h2>
             <div class="record__doctor-position">
                 <div class="record__doctor-form-position">
-                    <p class="record-doctor__description">
-                        Чтобы не тратить время на ожидание в очереди, мы рекомендуем Вам заранее записаться на прием в наш медицинский центр. Оставьте свои контактные данные, и наш администратор свяжется с Вами, чтобы согласовать дату и время приёма.
-                    </p>
                     <form class="record__doctor-form">
-                        <span class="record-doctors__caption-form">Ваши ФИО</span>
+                        <span class="record-doctors__caption-form">Фамилия</span>
                         <input class="record-doctors__input-form" type="text">
-                        <span class="record-doctors__caption-form">Ваш телефон</span>
-                        <input class="record-doctors__input-form" type="tel">
-                        <span class="record-doctors__caption-form">Ваш email</span>
-                        <input class="record-doctors__input-form" type="email">
-                        <span class="record-doctors__caption-form">Комментарий</span>
-                        <textarea class="record-doctors__textarea-form"></textarea>
+                        <span class="record-doctors__caption-form">Дата рождения</span>
+                        <div class="date-position">
+                            <input class="record-doctors__input-form" placeholder="ДД.ММ.ГГГГ" type="text" name="date" onclick='showcalendar(this)'>
+                            <button class="btn input-date btn-data" type="button" disabled></button>
+                        </div>
+                        <span class="record-doctors__caption-form">Номер заказа</span>
+                        <input class="record-doctors__input-form" type="number">
                         <label for="check" class="label">
                             <div class="check-div">
                                 <input class="checkbox" type="checkbox" name="check" id="check">
                                 <span class="checkbox-span">Я принимаю условия <a href="#">пользовательского соглашения</a> и даю согласие на обработку <a href="#">персональных данных</a></span>
                             </div>  
                         </label>
-                        <button type="submit" class="btn record__doctors-btn">Записаться</button>
+                        <button type="submit" class="btn record__doctors-btn">Показать результат</button>
                     </form>
                 </div>
                 <div>
@@ -114,6 +115,7 @@
     </footer>
     <script src="js/main.js"></script>
     <script src="js/cart.js"></script>
+    <script src="js/dayepicker.js"></script>
     <script src="js/inputmask.min.js"></script>
     <script src="js/mask.js"></script>
 </body>
