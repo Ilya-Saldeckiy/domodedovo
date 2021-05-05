@@ -868,7 +868,7 @@ li{
     font-size: 16px;
     line-height: 1.2;
     font-weight: 300;
-    color: #999999;
+    color: #000;
     padding-left: 16px;
 }
 
@@ -1522,7 +1522,16 @@ svg:not(:root) {
     padding-top: 86px;
 }
 
-
+.filter-reset-btn{
+    padding-left: 0;
+    margin-left: 23px;
+    text-align: left;
+    background-color: unset;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #009cf2;
+}
 
 
 

@@ -2,6 +2,10 @@ $('.clean-input').click(function(e) {
 	$(".input-active").removeClass("input-active");
 });
 
+$('.filter-reset-btn').click(function(e) {
+	$(".input-active").removeClass("input-active");
+});
+
 var input = $('#input');
 
 input.on('input', function() {
@@ -58,6 +62,10 @@ $('.footer-btn').click(function () {
 
 $('.cart-btn').click(function () {
     location.href = "cart.html";
+});
+
+$('.record__doctors-btn').click(function () {
+    location.href = "open-results.html";
 });
 
 

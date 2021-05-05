@@ -1,0 +1,163 @@
+.caption-line{
+    font-size: 30px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.analiz-status{
+    font-size: 30px;
+    font-weight: 300;
+    color: #00962e;
+}
+
+.position-personal-info{
+    display: flex;
+    align-items: flex-start;
+    padding-right: 87px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 59px;
+}
+
+.analiz-section{
+    padding-top: 86px;
+    padding-bottom: 93px;
+}
+
+.personal-info__text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.personal-info{
+    margin-right: auto;
+}
+
+.personal-info__text-docoration{
+    font-weight: 300;
+}
+
+.action__link-download{
+    background: url('../img/ico_download.svg') 0% 50% no-repeat;
+    background-size: 16px 12px;
+}
+
+.action__link-email{
+    background: url('../img/ico_email.svg') 0% 50% no-repeat;
+    background-size: 16px 12px;
+}
+
+.action__link-print{
+    background: url('../img/ico_print.svg') 0% 50% no-repeat;
+    background-size: 16px 12px;
+}
+
+.action__link{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #009cf2;
+    padding-left: 24px;
+    display: block;
+    background-color: unset;
+}
+
+.action__link:not(:last-child){
+    margin-bottom: 0px;
+}
+
+.analiz__caption{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 38px;
+}
+
+.analiz__description-position{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.analiz__text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-right: 47px;
+}
+
+.analiz__text-decoration{
+    font-weight: 300;
+}
+
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #000000;
+}
+
+table th{
+    text-align: left;
+    background-color: #edeef0;
+}
+
+table th:not(:last-child){
+    border-right: 1px solid #dddd;
+}
+
+.arrow-green{
+    font-weight: 400;
+    color: #00b388;
+}
+
+.arrow-red{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #000000;
+    font-weight: 400;
+    color: #f8485e;
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: #fafafa;
+}
+
+.analiz-results{
+    padding-bottom: 56px;
+    border-bottom: 1px solid #dddd;
+    margin-bottom: 60px;
+}
+
+.last-block{
+    margin-bottom: 61px;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.analiz__alert-text{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ee0218;
+    padding-left: 57px;
+    position: relative;
+    width: 780px;
+}
+
+.analiz__alert-text::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: url('../img/ico_alert_40_18804.png') 50% no-repeat;
+    background-size: 40px;
+    position: absolute;
+    left: 0;
+}
