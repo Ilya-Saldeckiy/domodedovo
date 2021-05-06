@@ -1079,7 +1079,7 @@ li{
 }
 
 .cross-img, .filter__popup-close, .select-mobile-wrap__close {
-    background-image: url(/local/templates/delement/frontend/assets/styles/../icons/ico_x.svg);
+    background-image: url('../img/ico_x.svg');
     background-size: 24px;
     background-position: 50%;
     background-repeat: no-repeat;
