@@ -78,6 +78,9 @@ li{
     border: none;
     outline: none;
     cursor: pointer;
+    transition-property: color,border,background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
 }
 
 .hidden-caption{
@@ -601,6 +604,8 @@ li{
     border: 1px solid #e7e7e7;
     background-color: #fff;
     outline: none;
+    padding-left: 16px;
+    font-size: 16px;
 }
 
 .input__record:first-of-type{
@@ -1533,7 +1538,19 @@ svg:not(:root) {
     color: #009cf2;
 }
 
+.doctors-block__card .doctors-btn:hover {
+    border-color: #1fa0aa;
+    color: #1fa0aa;
+}
 
+.doctors-block__card .doctors-btn:hover{
+    border-color: #1fa0aa;
+    color: #1fa0aa;
+}
+
+.record__doctors-btn:hover {
+    background-color: #1fa0aa;
+}
 
 
 

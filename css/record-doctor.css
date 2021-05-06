@@ -32,7 +32,7 @@
     border: 1px solid #bbbbbb;
     resize: both;
     outline: none;
-    margin-bottom: 31px;
+    margin-bottom: 0px;
 }
 
 .record-doctor__description{
@@ -202,8 +202,4 @@
     position: absolute;
     left: -4px;
     bottom: -19px;
-}
-
-.record-doctors__input-form:last-of-type{
-    margin-bottom: 0px;
 }
