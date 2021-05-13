@@ -34,10 +34,12 @@
                         <a class="phone-header__link" href="tel:+74955040249">8 495 504 0249</a>
                         <a class="phone-header__link" href="tel:+74959336666">8 495 933 6666</a>
                     </div>
+                    <button class="btn phone__btn"></button>
                     <div class="btn-position-header">
                         <span class="cart-number">0</span>
                         <button class="btn cart-btn" type="button"></button>
                     </div>
+                    <button class="btn burger"></button>
             </div>
         </section>
         <section class="section__header-menu">
@@ -50,6 +52,12 @@
                         <li class="nav__item"><a href="contacts.html">Контакты</a></li>
                     </ul>
                 </nav>
+            </div>
+        </section>
+        <section class="section__mobile__btn">
+            <div class="container btn__container">
+                <button class="btn btn__header btn__header-receive" type="button">Получить результаты</button>
+                <button class="btn btn__header btn__header-sign" type="button">Записаться на&nbsp;приём</button>
             </div>
         </section>
     </header>
@@ -67,13 +75,17 @@
                     <div class="swiper-container first-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide first-slider-1">
-                                <a href="https://vk.com/im"><img src="img/dme_corporate_banner.jpg" alt="slide-1"></a>
+                                <a href="https://vk.com/im"><img class="desctop-img__slider" src="img/dme_corporate_banner.jpg" alt="slide-1">
+                                    <img class="mobile-img__slider" src="img/dme_corporate_banner_mobile.jpg" alt="slide-1"></a>
                             </div>
                             <div class="swiper-slide first-slider-2">
-                                <a href="#"><img src="img/dme_corporate_banner.jpg" alt="slide-1"></a>
+                                <a href="#"><img class="desctop-img__slider" src="img/dme_corporate_banner.jpg" alt="slide-1">
+                                    <img class="mobile-img__slider" src="img/dme_corporate_banner_mobile.jpg" alt="slide-1">
+                                </a>
                             </div>
                             <div class="swiper-slide first-slider-3">
-                                <a href="#"><img src="img/dme_corporate_banner.jpg" alt="slide-1"></a>
+                                <a href="#"><img class="desctop-img__slider" src="img/dme_corporate_banner.jpg" alt="slide-1">
+                                    <img class="mobile-img__slider" src="img/dme_corporate_banner_mobile.jpg" alt="slide-1"></a>
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
@@ -123,7 +135,6 @@
             </section>
 
             <section class="section__services">
-                <div class="container">
                     <h2 class="main-caption">Медицинские услуги</h2>
                     <div class="doctors-position">
                         <div class="doctors-card">
@@ -160,7 +171,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
                 <div class="card__buy-position">
                     <div class="card-buy">
                         <a class="card-buy__link" id="modal-open-5">Ультразвуковая диагностика беременных/плода (3-го триместа ) с&nbsp;допплерометрией</a>
@@ -214,7 +224,9 @@
                     </div>
                 </div>
             </section>
+        </div>
             <section class="section__record">
+                <div class="container">
                     <div class="record__position">
                         <div class="record__text-position">
                             <h3 class="record__caption">Запишитесь на&nbsp;приём</h3>
@@ -235,8 +247,8 @@
                             </form>
                         </div>
                     </div>
+                </div>
             </section>
-        </div>
         <div class="modal" id="modal-1">
             <div class="modal__content">
                 <button class="btn popup-close1 second-modal-close"></button>
@@ -1794,7 +1806,7 @@
             <div class="container">
                 <div class="footer-position">
                     <div class="footer-description-position">
-                        <h3 class="footer__caption">Все исследования выполняются в&nbsp;лаборатории ФБУН Центрального НИИ Эпидемиологии Роспотребнадзора (г. Москва)</h3>
+                        <h3 class="footer__caption">Все исследования выполняются в&nbsp;лаборатории ФБУН&nbsp;Центрального НИИ Эпидемиологии Роспотребнадзора (г. Москва)</h3>
                         <p class="footer__description">Вся информация (включая цены) на&nbsp;этом интернет-сайте носит исключительно информационный характер и&nbsp;ни при каких условиях не&nbsp;является публичной офертой, определяемой положениями Статьи&nbsp;437 (2) Гражданского кодекса РФ.</p>
                         <p class="footer__copiraite">© <?=date("Y");?>, Московский аэропорт Домодедово</p>
                     </div>

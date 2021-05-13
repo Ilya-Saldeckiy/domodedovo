@@ -44,6 +44,14 @@ li{
     margin: 0;
 }
 
+.desctop-img__slider{
+    display: block;
+}
+
+.mobile-img__slider{
+    display: none;
+}
+
 .hidden{
     overflow: hidden;
 }
@@ -187,6 +195,10 @@ li{
     padding-bottom: 18px;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
+}
+
+.section__mobile__btn{
+    display: none;
 }
 
 .nav__menu{
@@ -1552,6 +1564,14 @@ svg:not(:root) {
     background-color: #1fa0aa;
 }
 
+.burger{
+    display: none;
+}
+
+.phone__btn{
+    display: none;
+}
+
 
 
 
@@ -1563,3 +1583,491 @@ svg:not(:root) {
 
 
 /* Адаптив */
+
+@media (max-width: 1279px){
+    .container{
+        width: 968px;
+    }
+
+    .logo{
+        margin-right: 64px;
+    }
+
+    .btn__header:first-of-type{
+        margin-right: 40px;
+    }
+
+    .phone__header-position {
+        margin-left: 33px;
+        margin-right: auto;
+    }
+
+    .baner {
+        margin-bottom: 78px;
+    }
+
+    .card__buy-position {
+        flex-wrap: wrap;
+    }
+
+    .card-buy{
+        width: 476px;
+        height: 300px;
+        padding-right: 20px;
+    }
+
+    .card-buy:nth-child(2n){
+        margin-right: 0;
+    }
+
+    .card-buy:nth-child(-n + 2){
+        margin-bottom: 16px;
+    }
+
+    .card-buy__link{
+        max-height: 90px;
+    }
+
+    .doctors-card{
+        height: auto;
+    }
+
+    .where__img-position{
+        max-width: 484px;
+        height: auto;
+    }
+
+    .where__text-position{
+        width: 390px;
+    }
+
+    .section__record {
+        padding-top: 100px;
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-bottom: 96px;
+    }
+
+    .footer-description-position {
+        width: 630px;
+        margin-right: auto;
+    }
+
+
+}
+
+@media (max-width: 1023px){
+
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .phone__btn{
+        display: block;
+    }
+
+    .section-header-main .btn__header{
+        display: none;
+    }
+
+    .phone__header-position{
+        display: none;
+    }
+
+    .phone__btn{
+        width: 32px;
+        height: 32px;
+        background: url('../img/ico_phone__header.png') 50% no-repeat;
+        margin-right: 32px;
+    }
+
+    .burger{
+        width: 32px;
+        height: 29px;
+        background: url('../img/ico_menu.png') 50% no-repeat;
+    }
+
+    .cart-btn{
+        background-size: cover;
+        top: 4px;
+        margin-right: 32px;
+    }
+
+    .logo{
+        margin-right: auto;
+    }
+
+    .section-header-main{
+        border-bottom: 1px solid #dddddd;
+        margin-bottom: 32px;
+    }
+
+    .btn__container{
+        display: flex;
+        align-items: center;
+    }
+
+    .section__header-menu{
+        display: none;
+    }
+
+    .section__mobile__btn{
+        display: block;
+    }
+
+    .btn__header{
+        width: 50%;
+    }
+
+    .section__banner {
+        padding-top: 32px;
+    }
+
+    .baner {
+        margin-bottom: 68px;
+    }
+
+    .main-caption{
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #000000;
+    }
+
+    .card-buy {
+        width: 48%;
+        height: 360px;
+        padding-right: 20px;
+    }
+
+    .card-buy__link {
+        max-height: 140px;
+    }
+
+    .section__popular-tests {
+        margin-bottom: 68px;
+    }
+
+    .doctors-card{
+        width: 48%;
+        flex-direction: column;
+    }
+
+    .doctors__img-position img{
+        margin-bottom: 25px;
+    }
+
+    .section__services {
+        margin-bottom: 68px;
+    }
+
+    .where__position {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .where__text-position {
+        width: 100%;
+        margin-bottom: 52px;
+    }
+
+    .where__img-position {
+        max-width: 616px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .section__where {
+        margin-bottom: 64px;
+    }
+
+    .record__position {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .record__text-position {
+        width: 322px;
+        margin-right: 0;
+    }
+
+    .record__caption{
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #000000;
+        text-align: center;
+    }
+
+    .record__description{
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .record__text{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #777777;
+        text-align: center;
+        margin-right: 0;
+        width: auto;
+        margin-bottom: 32px;
+    }
+
+    .record__number{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #067881;
+        text-align: center;
+        margin-bottom: 46px;
+    }
+
+    .section__record{
+        padding: 0;
+        padding-top: 68px;
+        padding-bottom: 64px;
+        margin-bottom: 64px;
+    }
+
+    .footer{
+        padding-top: 64px;
+    }
+
+    .footer-position {
+        flex-direction: column-reverse;
+    }
+
+    .footer__social{
+        text-align: left;
+        margin-bottom: 44px;
+    }
+
+    .cart-number{
+        right: 75px;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+
+    .btn__container{
+        flex-direction: column;
+    }
+
+    .btn__header:first-of-type {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+
+    .btn__header {
+        width: 100%;
+    }
+
+    .card__buy-position,.doctors-position{
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+
+    .card-buy,.doctors-card{
+        min-width: 272px;
+        width: 100%;
+    }
+
+    .card-buy:nth-child(2n) {
+        margin-right: 16px;
+    }
+
+    .card-buy__link{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #000000;
+    }
+
+    .card__buy-btn{
+        width: 120px;
+        height: 36px;
+        border-radius: 5px;
+        background-position: 10px 8px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+
+    .doctors-position{
+        margin-bottom: 48px;
+    }
+    
+    .section__popular-tests,.section__services {
+        margin-bottom: 55px;
+    }
+
+    .card-buy:nth-child(-n + 2) {
+        margin-bottom: 0px;
+    }
+
+    .main-caption{
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        margin-bottom: 35px;
+    }
+
+    .where__text,.where__time-jobs,.where__time,.where__phone{
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    .record__caption,.record__description{
+        text-align: left;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        color: #067881;
+    }
+
+    .record__description{
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 300;
+        margin-bottom: 45px;
+    }
+    
+    .record__text{
+        text-align: left;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #000000;
+    }
+
+    .record__number{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #067881;
+        text-align: left;
+    }
+
+    .record__position{
+        align-items: initial;
+    }
+
+    .input__record{
+        width: 100%;
+    }
+
+    .record__form {
+        width: 100%;
+    }
+
+    .record__btn{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 352px;
+    }
+
+    .footer-description-position {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .record__text-position {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .footer__item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .search__input{
+        height: 40px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #000000;
+        padding-left: 16px;
+    }
+
+    .clean-input{
+        right: 45px;
+    }
+
+    .input-btn{
+        background-size: 18px;
+    }
+
+    .search__input::placeholder{
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #000000;
+    }
+
+    .input-btn {
+        width: 39px;
+    }
+
+    .desctop-img__slider{
+        display: none;
+    }
+
+    .mobile-img__slider{
+        display: block;
+    }
+
+    .phone__btn,.cart-btn,.burger{
+        width: 24px;
+        height: 24px;
+        background-size: 24px;
+        margin-right: 20px;
+    }
+
+    .burger{
+        margin-right: 0;
+    }
+
+    .cart-btn{
+        top: 0;
+    }
+
+    .logo{
+        width: 144px;
+    }
+
+    body{
+        padding-top: 16px;
+    }
+
+    .header-container {
+        display: flex;
+        align-items: flex-start;
+        padding-bottom: 0px;
+    }
+
+    .cart-number {
+        right: 53px;
+        top: -8px;
+    }
+}
