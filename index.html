@@ -22,7 +22,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/iquery-ui.js"></script>
 </head>
-<body>
+<body class="body">
     <header>
         <section class="section-header-main">
             <div class="container header-container">
@@ -42,8 +42,13 @@
                     <button class="btn burger"></button>
             </div>
         </section>
-        <section class="section__header-menu">
-            <div class="container">
+        <section class="section__header-menu burger_disable">
+            <div class="container burger__container">
+                <button type="button" class="btn close__burger"></button>
+                <div class="burger__phone-position">
+                    <a class="phone-header__link" href="tel:+74955040249">8 495 504 0249</a>
+                    <a class="phone-header__link" href="tel:+74959336666">8 495 933 6666</a>
+                </div>
                 <nav class="nav">
                     <ul class="list-reset nav__menu anchor">
                         <li class="nav__item"><a href="analiz.html" >Анализы и&nbsp;цены</a></li>

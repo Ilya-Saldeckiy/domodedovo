@@ -35,14 +35,21 @@
                         <a class="phone-header__link" href="tel:+74955040249">8 495 504 0249</a>
                         <a class="phone-header__link" href="tel:+74959336666">8 495 933 6666</a>
                     </div>
+                    <button class="btn phone__btn"></button>
                     <div class="btn-position-header">
                         <span class="cart-number">0</span>
                         <button class="btn cart-btn" type="button"></button>
                     </div>
+                    <button class="btn burger"></button>
             </div>
         </section>
         <section class="section__header-menu">
-            <div class="container">
+            <div class="container burger__container">
+                <button type="button" class="btn close__burger"></button>
+                <div class="burger__phone-position">
+                    <a class="phone-header__link" href="tel:+74955040249">8 495 504 0249</a>
+                    <a class="phone-header__link" href="tel:+74959336666">8 495 933 6666</a>
+                </div>
                 <nav class="nav">
                     <ul class="list-reset nav__menu anchor">
                         <li class="nav__item"><a href="analiz.html">Анализы и&nbsp;цены</a></li>
@@ -53,21 +60,27 @@
                 </nav>
             </div>
         </section>
+        <section class="section__mobile__btn">
+            <div class="container btn__container">
+                <button class="btn btn__header btn__header-receive" type="button">Получить результаты</button>
+                <button class="btn btn__header btn__header-sign" type="button">Записаться на&nbsp;приём</button>
+            </div>
+        </section>
     </header>
     <main>
         <div class="container section__record__doctor">
             <h2 class="main-caption">Для организаций</h2>
             <div class="record__doctor-position">
                 <div class="record__doctor-form-position">
-                    <p class="record-doctor__description">
+                    <p class="record-doctor__description organization__description">
                         Для организаций, работающих на&nbsp;территории аэропорта Домодедово, действуют специальные условия на&nbsp;медицинское обслуживание сотрудников. Отправьте запрос, чтобы узнать подробности.
                     </p>
                     <form class="record__doctor-form">
                         <span class="record-doctors__caption-form">ФИО контактного лица</span>
                         <input class="record-doctors__input-form" type="text">
                         <span class="record-doctors__caption-form">Телефон</span>
-                        <input class="record-doctors__input-form" type="tel">
-                        <button type="submit" class="btn record__doctors-btn">Отправить запрос</button>
+                        <input class="record-doctors__input-form last-input" type="tel">
+                        <button type="submit" class="btn record__doctors-btn-submit">Отправить запрос</button>
                     </form>
                 </div>
                 <div>

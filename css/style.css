@@ -1572,6 +1572,9 @@ svg:not(:root) {
     display: none;
 }
 
+.burger__phone-position,.close__burger{
+    display: none;
+}
 
 
 
@@ -1651,6 +1654,18 @@ svg:not(:root) {
     .footer-description-position {
         width: 630px;
         margin-right: auto;
+    }
+
+    .logo{
+        max-width: 240px;
+    }
+
+    .doctors-block__card{
+        width: 430px;
+    }
+
+    .doctors-block__card .doctors__img-position{
+        margin-right: 24px;
     }
 
 
@@ -1855,6 +1870,110 @@ svg:not(:root) {
 
     .cart-number{
         right: 75px;
+    }
+
+    .doctors-block__card{
+        width: 47%;
+    }
+
+    .doctors-block {
+        padding-top: 68px;
+        padding-bottom: 16px;
+    }
+    
+    .section__header-menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        width: 384px;
+        z-index: 11;
+        padding-top: 45px;
+        height: 960px;
+    }
+
+    .overlay::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: block;
+    }
+
+    .nav__menu {
+        display: block;
+    }
+
+    .burger__container{
+        width: 384px;
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+
+    .burger__phone-position,.close__burger{
+        display: block;
+    }
+
+    .burger__phone-position{
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 43px;
+        width: 100%;
+    }
+
+    .phone-header__link{
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .phone-header__link:not(:last-child){
+        margin-right: 36px;
+    }
+
+    .phone-header__link:first-of-type {
+        margin-bottom: 31px;
+    }
+
+    .nav__item{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #000000;
+    }
+
+    .nav__item:not(:last-child){
+        margin-bottom: 41px;
+    }
+
+    .close__burger{
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        right: 19px;
+        top: -26px;
+        background: url('../img/ico_x.svg') 50% no-repeat;
+    }
+
+    .burger_active{
+        display: block;
+    }
+
+    .nav__item-open::after {
+        content: "";
+        width: 100%;
+        border-bottom: 2px solid #067881;
+        position: absolute;
+        left: -4px;
+        bottom: -19px;
     }
 
 }
@@ -2069,5 +2188,48 @@ svg:not(:root) {
     .cart-number {
         right: 53px;
         top: -8px;
+    }
+
+    .doctors-block__card{
+        width: 100%;
+    }
+
+    .doctors-block {
+        padding-top: 47px;
+        padding-bottom: 48px;
+    }
+
+    .doctors-block__card:not(:last-child){
+        margin-bottom: 72px;
+    }
+
+    .doctors__name{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+
+    .doctors__proffesio{
+        font-size: 14px;
+    }
+
+    .description__price-doctors{
+        font-size: 14px;
+    }
+
+    .price-doctors{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .doctors-btn,.doctors-block__card .doctors-btn{
+        width: 180px;
+        font-size: 14px;
+    }
+
+    .section__header-menu {
+        width: 100%;
+        height: 100vh;
+        overflow: auto;
     }
 }

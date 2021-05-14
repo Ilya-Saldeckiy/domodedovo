@@ -184,7 +184,11 @@
 
 .date-position{
     position: relative;
-    margin-bottom: 36px;
+    margin-bottom: 0px;
+}
+
+.last-input{
+    margin-bottom: 0;
 }
 
 .calendar-open{
@@ -202,4 +206,139 @@
     position: absolute;
     left: -4px;
     bottom: -19px;
+}
+
+.record-doctors__textarea-form{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+}
+
+.record__doctors-btn-submit{
+    width: 352px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #067881;
+    margin-top: 31px;
+}
+
+
+@media (max-width: 1279px){
+    .container{
+        width: 968px;
+    }
+
+    .record__doctor-form-position {
+        width: 440px;
+    }
+
+    .record__doctors-image {
+        max-width: 441px;
+        height: 381px;
+    }
+
+    .last-input{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1023px){
+
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+
+    .section__record__doctor {
+        padding-top: 62px;
+        padding-bottom: 72px;
+    }
+
+    .record__doctor-position{
+        flex-direction: column-reverse;
+    }
+
+    .record__doctor-form-position {
+        width: 100%;
+    }
+
+    .record__doctors-image{
+        margin-bottom: 34px;
+    }
+
+    .record-doctors__input-form{
+        font-size: 16px;
+    }
+
+    .checkbox-span{
+        width: 435px;
+    }
+
+    .last-input{
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+
+    .record__doctor-position{
+        align-items: center;
+    }
+
+    .record__doctors-image {
+        max-width: 530px;
+        height: auto;
+    }
+
+    .section__record__doctor {
+        padding-top: 47px;
+        padding-bottom: 48px;
+    }
+
+    .record-doctors__caption-form{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .record-doctors__input-form{
+        margin-bottom: 30px;
+    }
+
+    .checkbox-span{
+        max-width: 435px;
+        width: 100%;
+    }
+
+    .record__doctors-btn-submit,.record__doctors-btn{
+        width: 100%;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 27px;
+    }
+
+    .check-div {
+        position: relative;
+        margin-top: 25px;
+    }
+
+    .last-input{
+        margin-bottom: 0;
+    }
+
+    .organization__description{
+        display: none;
+    }
+
 }
