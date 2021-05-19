@@ -1,3 +1,173 @@
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+
+	$(function () {
+		$('#modal-open-9').click(function () {
+			$('#modal-9').addClass('modal_active');
+			$('body').addClass('hidden');
+		});
+
+		$('.popup-close1').click(function () {
+			$('#modal-9').removeClass('modal_active');
+			$('body').removeClass('hidden');
+		  });
+	});
+
+	$('#1').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+
+	});
+	$('#2').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+
+	});
+	$('#3').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#4').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#5').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#6').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#7').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#8').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#9').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#10').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#11').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#12').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#13').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#14').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#15').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+
+	});
+	$('#16').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#17').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+	$('#18').on('click', function() {
+
+		$(".selectPosMobile span").text($(this).text());
+		$('.modal').removeClass('modal_active');
+		$('body').removeClass('hidden');
+	});
+
+	$(function () {
+		$('.filter-complex').click(function () {
+		  $('.mobile-complex').addClass('modal_active-mobile');
+		  $('body').addClass('hidden');
+		});
+	
+		$('.mobile__close').click(function () {
+		  $('.mobile-complex').removeClass('modal_active-mobile');
+		  $('body').removeClass('hidden');
+		});
+	  });
+
+	  $(function () {
+		$('.filter-diseases').click(function () {
+		  $('.mobile-deases').addClass('modal_active-mobile');
+		  $('body').addClass('hidden');
+		});
+	
+		$('.mobile__close').click(function () {
+		  $('.mobile-deases').removeClass('modal_active-mobile');
+		  $('body').removeClass('hidden');
+		});
+	  });
+
+	  $(function () {
+		$('.filter-group').click(function () {
+		  $('.mobile-group').addClass('modal_active-mobile');
+		  $('body').addClass('hidden');
+		});
+	
+		$('.mobile__close').click(function () {
+		  $('.mobile-group').removeClass('modal_active-mobile');
+		  $('body').removeClass('hidden');
+		});
+	  });
+
+
+}
+
+
+
+
+
+
 $('.clean-input').click(function(e) {
 	$(".input-active").removeClass("input-active");
 });
@@ -68,36 +238,120 @@ $('.record__doctors-btn').click(function () {
     location.href = "open-results.html";
 });
 
+$('.phone__btn').click(function () {
+    location.href = "tel:+74955040249";
+});
+
+// $(function () {
+// 	$('.filter-diseases').click(function () {
+// 		$(".filter-diseases-list").addClass("active-filter");
+// 	  });
+
+// 	$('.filter__popup-close').click(function(e) {
+// 		$(".filter-diseases-list").removeClass("active-filter");
+// 	});
+
+// 	$('.filter-diseases-list').mouseup(function (e) {
+// 		let modalContent = $(".filter__popup");
+// 		if (modalContent.is(e.target) && modalContent.has(e.target).length === 0) {
+// 		  $('.filter-diseases-list').removeClass('active-filter');
+// 		}
+// 	  });
+// 	  $(document).keydown(function(e) {
+// 		  if (e.keyCode === 27) {
+// 			  $('.filter-diseases-list').removeClass('active-filter');
+// 		  }
+// 	  });
+
+// })
 
 $(function () {
 	$('.filter-diseases').click(function () {
-		$(".filter-diseases-list").addClass("active-filter");
-	  });
+	  $('#deases').addClass('filter_active');
+	});
 
-	  $('.filter__popup-close').click(function(e) {
-		$(".filter-diseases-list").removeClass("active-filter");
-		});
-})
+	$('.filter__popup-close').click(function () {
+	  $('#deases').removeClass('filter_active');
+	});
 
-$(function () {
+	$('#deases').mouseup(function (e) {
+	  let modalContent = $(".filter__popup");
+	  if (!modalContent.is(e.target) && modalContent.has(e.target).length === 0) {
+		$(this).removeClass('filter_active');
+	  }
+	});
+	$(document).keydown(function(e) {
+		if (e.keyCode === 27) {
+			$('#deases').removeClass('filter_active');
+		}
+	});
+  });
+
+  $(function () {
 	$('.filter-complex').click(function () {
-		$(".filter-complex-list").addClass("active-filter");
-	  });
+	  $('#complex').addClass('filter_active');
+	});
 
-	  $('.filter__popup-close').click(function(e) {
-		$(".filter-complex-list").removeClass("active-filter");
-		});
-})
+	$('.filter__popup-close').click(function () {
+	  $('#complex').removeClass('filter_active');
+	});
 
-$(function () {
+	$('#complex').mouseup(function (e) {
+	  let modalContent = $(".filter__popup");
+	  if (!modalContent.is(e.target) && modalContent.has(e.target).length === 0) {
+		$(this).removeClass('filter_active');
+	  }
+	});
+	$(document).keydown(function(e) {
+		if (e.keyCode === 27) {
+			$('#complex').removeClass('filter_active');
+		}
+	});
+  });
+
+  $(function () {
 	$('.filter-group').click(function () {
-		$(".filter-group-list").addClass("active-filter");
-	  });
+	  $('#group').addClass('filter_active');
+	});
 
-	  $('.filter__popup-close').click(function(e) {
-		$(".filter-group-list").removeClass("active-filter");
-		});
-})
+	$('.filter__popup-close').click(function () {
+	  $('#group').removeClass('filter_active');
+	});
+
+	$('#group').mouseup(function (e) {
+	  let modalContent = $(".filter__popup");
+	  if (!modalContent.is(e.target) && modalContent.has(e.target).length === 0) {
+		$(this).removeClass('filter_active');
+	  }
+	});
+	$(document).keydown(function(e) {
+		if (e.keyCode === 27) {
+			$('#group').removeClass('filter_active');
+		}
+	});
+  });
+
+
+
+// $(function () {
+// 	$('.filter-complex').click(function () {
+// 		$(".filter-complex-list").addClass("active-filter");
+// 	  });
+
+// 	  $('.filter__popup-close').click(function(e) {
+// 		$(".filter-complex-list").removeClass("active-filter");
+// 		});
+// })
+
+// $(function () {
+// 	$('.filter-group').click(function () {
+// 		$(".filter-group-list").addClass("active-filter");
+// 	  });
+
+// 	  $('.filter__popup-close').click(function(e) {
+// 		$(".filter-group-list").removeClass("active-filter");
+// 		});
+// })
 
 $(function () {
 	$('.burger').click(function () {

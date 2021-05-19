@@ -26,9 +26,13 @@
 
 .personal-info__text{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 16px;
     font-weight: 700;
     color: #000000;
+}
+
+.personal-info__text:not(:last-child){
+    margin-bottom: 21px;
 }
 
 .personal-info{
@@ -41,17 +45,17 @@
 
 .action__link-download{
     background: url('../img/ico_download.svg') 0% 50% no-repeat;
-    background-size: 16px 12px;
+    background-size: 16px;
 }
 
 .action__link-email{
     background: url('../img/ico_email.svg') 0% 50% no-repeat;
-    background-size: 16px 12px;
+    background-size: 16px;
 }
 
 .action__link-print{
     background: url('../img/ico_print.svg') 0% 50% no-repeat;
-    background-size: 16px 12px;
+    background-size: 16px;
 }
 
 .action__link{
@@ -160,4 +164,122 @@ table tbody tr:nth-child(2n) {
     background-size: 40px;
     position: absolute;
     left: 0;
+}
+
+@media (max-width: 1279px){
+    
+    .four-th{
+        width: 190px;
+    }
+
+
+}
+
+@media (max-width: 1279px){
+    
+    .position-personal-info{
+        padding-right: 0;
+    }
+
+    .analiz__caption{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .table__overflov {
+        display: block;
+        overflow: auto;
+        max-width: 100%;
+    }
+
+    table{
+        width: 968px;
+        overflow: scroll;
+    }
+
+    .analiz-section {
+        padding-top: 76px;
+        padding-bottom: 69px;
+    }
+
+
+}
+
+
+@media (max-width: 1279px){
+
+    .analiz-section {
+        padding-top: 44px;
+        padding-bottom: 49px;
+    }
+
+    .caption-line{
+        display: none;
+    }
+
+    .analiz-status{
+        display: block;
+    }
+
+    .position-personal-info{
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 47px;
+    }
+
+    .number__analiz{
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 45px;
+    }
+
+    .analiz-status{
+        font-size: 22px;
+        font-weight: 300;
+        color: #00962e;
+        margin-top: 10px;
+    }
+
+    .personal-info{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 39px;
+        border-bottom: 1px solid #dddd;
+        width: 100%;
+        margin-bottom: 39px;
+    }
+
+    .block-action{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 39px;
+        width: 100%;
+    }
+
+    .analiz__caption{
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 34px;
+    }
+
+    .analiz__description-position{
+        flex-direction: column;
+    }
+
+    .analiz__text:not(:last-child){
+        margin-bottom: 18px;
+    }
+
+    .analiz__alert-text{
+        width: 100%;
+    }
+
+    table {
+        width: 775px;
+        overflow: scroll;
+    }
 }

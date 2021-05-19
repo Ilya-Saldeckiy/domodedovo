@@ -1,0 +1,249 @@
+.mobile-pop {
+    display: none;
+}
+
+
+@media (max-width: 1279px){
+
+    .researches-table__item{
+        display: block;
+    }
+
+    .code{
+        display: inline-block;
+        margin-left: 4px;
+    }
+
+    .researches__upper-line {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 0;
+        position: relative;
+        top: 8px;
+    }
+
+    .researches__btn{
+        position: absolute;
+        top: unset;
+        bottom: 25px;
+        right: 0;
+    }
+
+    .researches-table__item{
+        padding-bottom: 40px;
+    }
+
+    .researches__upper-price{
+        position: absolute;
+        right: 60px;
+    }
+
+    .filter__popup {
+        background-color: #fff;
+        position: relative;
+        padding: 36px 40px 40px;
+        max-width: 1024px;
+        width: 100%;
+        display: block;
+    }
+
+    .btn__is-active {
+        border-bottom: 2px solid #00b388;
+        color: #00b388;
+    }
+
+}
+
+@media (max-width: 1023px){
+
+    .input-position {
+        display: inline;
+        position: relative;
+    }
+
+    .analiz__block-position {
+        display: block;
+    }
+
+    .analiz__filter {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .filter-form {
+        width: 100%;
+    }
+
+    .input-btn{
+        top: -12px;
+        right: 5px;
+    }
+
+    .filter__input{
+        width: 47%;
+        max-width: calc(50% - 16px);
+    }
+
+    .filter-btn{
+        width: 47%;
+        max-width: calc(50% - 16px);
+    }
+
+    .filter-reset-btn {
+        padding-left: 0;
+        margin-left: 0;
+        text-align: left;
+        background-color: unset;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 300;
+        color: #009cf2;
+        display: block;
+        margin-top: 16px;
+        margin-bottom: 57px;
+    }
+
+    .filter-btn:not(even){
+        margin-right: 16px;
+    }
+
+    .filter-btn:first-of-type{
+        margin-left: 16px;
+    }
+
+    .main__analiz{
+        padding-top: 41px;
+        padding-bottom: 69px;
+    }
+
+    .btn__is-active {
+        border-bottom: 2px solid #00b388;
+        color: #00b388;
+    }
+
+    .mobile-complex,.mobile-deases,.mobile-group{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 100vh;
+        overflow-y: scroll;
+        display: none;
+    }
+
+    .filter__popup-title{
+        padding-left: 16px;
+    }
+
+    .position-modal-mobile{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #dddd;
+        margin-bottom: 16px;
+    }
+
+    .filter__popup-footer-btn:first-child {
+        max-width: 166px;
+        width: 100%;
+    }
+
+    .filtre-clean-btn{
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .modal_active-mobile{
+        display: block;
+    }
+
+    .deases, .complex, .group{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 767px){
+
+    .analiz__caption{
+        font-size: 26px;
+        margin-bottom: 28px;
+    }
+
+    .filter-btn {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .filter-btn:not(even){
+        margin-right: 0px;
+    }
+
+    .filter-btn:first-of-type{
+        margin-left: 0px;
+    }
+
+    .filter__input {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .search__input {
+        height: 48px;
+    }
+
+    .input-btn {
+        top: 0px;
+        right: 0px;
+    }
+
+    .input-position {
+        display: block;
+        position: relative;
+    }
+
+    .researches__upper-line {
+        display: block;
+    }
+
+    .researches__upper-code {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+
+    .researches__btn {
+        position: absolute;
+        top: unset;
+        bottom: 32px;
+        right: 0;
+    }
+
+    .researches__upper-price {
+        position: absolute;
+        right: 60px;
+        bottom: 8px;
+    }
+
+    .researches-table__link {
+        width: 100%;
+    }
+
+    .researches__description-text{
+        width: 100%;
+    }
+
+    .last-table {
+        margin-bottom: 54px;
+    }
+
+    .main__analiz {
+        padding-top: 45px;
+        padding-bottom: 57px;
+    }
+
+
+}

@@ -439,3 +439,117 @@ table {
     left: 290px;
     top: 8px;
 }
+
+@media (max-width: 1279px){
+    .modal__content {
+        background-color: #fff;
+        position: relative;
+        padding: 36px 40px 40px;
+        max-width: 968px;
+        width: 100%;
+    }
+
+    .modal-text-position {
+        width: 504px;
+        margin-right: auto;
+    }
+
+    .btn__is-active {
+        border-bottom: 2px solid #00b388;
+        color: #00b388;
+    }
+}
+
+@media (max-width: 1023px){
+
+    .modal{
+        padding: 0;
+    }
+
+    .modal__content {
+        background-color: #fff;
+        position: relative;
+        padding: 16px 16px 16px;
+        padding-top: 46px;
+        padding-bottom: 46px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .modal__info-analiz{
+        width: 100%;
+        margin-bottom: 52px;
+    }
+
+    .position__modal-text{
+        flex-direction: column-reverse;
+    }
+
+    .modal-text-position {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .tooltipe-1 {
+        left: unset;
+        top: 122px;
+        right: 55px;
+    }
+
+    .tooltipe-2 {
+        left: unset;
+        top: 265px;
+        right: 55px;
+    }
+
+    .btn__is-active {
+        border-bottom: 2px solid #00b388;
+        color: #00b388;
+    }
+    
+
+}
+
+@media (max-width: 767px){
+
+    .btn__second-modal-position {
+        border-bottom: 1px solid #eeee;
+        margin-bottom: 40px;
+        overflow: scroll;
+        display: flex;
+    }
+    
+    .btn__is-active {
+        border-bottom: 2px solid #00b388;
+        color: #00b388;
+    }
+
+    .btn__second-modal{
+        min-width: 128px;
+    }
+
+    .tooltip__block::after{
+        left: 196px;
+        top: 8px;
+    }
+
+    .tooltip__block {
+        width: 210px;
+    }
+
+    .popup-close1 {
+        position: absolute;
+        top: 0px;
+        right: 0;
+    }
+
+    .modal__list-analiz-caption {
+        margin-bottom:44px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #000000;
+        padding-right: 0px;
+    }
+
+}

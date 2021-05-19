@@ -8,7 +8,7 @@
     line-height: 16px;
     font-weight: 400;
     color: #999999;
-    margin-top: 15px;
+    margin-top: 17px;
     width: 630px;
 }
 
@@ -372,4 +372,293 @@
 
 .cart-modal__caption{
     margin-bottom: 35px;
+}
+
+.selectPosMobile{
+    display: none;
+}
+
+.desctop__upper-line{
+    display: flex;
+}
+
+.mobile-upper__line{
+    display: none;
+}
+
+
+
+@media (max-width: 1279px){
+
+    .researches-table__link {
+        width: 600px;
+    }
+
+    .upper-price, .researches__upper-deadline, .researches__upper-code{
+        margin-right: 45px;
+        width: 70px;
+    }
+
+    .researches__upper-line {
+        margin-right:60px;
+    }
+
+    .upper-price{
+        margin-right: auto;
+    }
+
+    .upper-price {
+        margin-right: 0;
+    }
+
+    .cart__checkbox-line {
+        padding-right: 80px;
+    }
+
+}
+
+@media(max-width: 1023px){
+
+    #modal-9{
+        overflow: auto;
+        height: 100vh;;
+    }
+    /* #modal-9 > div{
+    height: 100vh;
+    } */
+    #modal-9 ul,li{
+        padding-left: 0;
+            /* list-style-type:none; */
+        font-size: 16px;
+    
+    }
+    
+    #modal-9Mobile{
+        list-style-type: none;
+    }
+    
+    .selectPosMobile{
+        display: none;
+    }
+    .select__posotion{
+        display: block;
+    }
+
+    .cart-section {
+        padding-top: 86px;
+        padding-bottom: 96px;
+    }
+
+    .code {
+        display: inline;
+    }
+
+    .researches__upper-line {
+        margin-right: 60px;
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+        padding-right: 16px;
+    }
+
+    .cart-table__item {
+        padding-bottom: 68px;
+    }
+
+    .cart-table__item{
+        position: relative;
+    }
+
+    .text-price{
+        display: none;
+    }
+
+    .cart-item__link {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        display: block;
+        color: #009cf2;
+        padding-left: 24px;
+        position: relative;
+        top: 0;
+        margin-bottom: -10px;
+        margin-top: 10px;
+    }
+
+    .researches-table__link {
+        width: 100%;
+    }
+
+    .cart__btn{
+        position: absolute;
+        bottom: 35px;
+        right: 0;
+    }
+
+    .code{
+        margin-left: 4px;
+    }
+
+    .researches__upper-code{
+        margin-right: 35px;
+    }
+
+    .upper-price, .researches__upper-deadline, .researches__upper-code {
+        width: 110px;
+    }
+
+    .researches__upper-deadline{
+        margin-right: auto;
+    }
+
+   .upper-price{
+       margin-right: 16px;
+       text-align: right;
+   }
+
+   .cart__checkbox-line {
+    padding-right: 21px;
+    }
+
+    .total__price-text{
+        padding-right: 40px;
+    }
+
+    .researches__upper-line{
+        z-index: -1;
+    }
+
+    .cart-section {
+        padding-top: 76px;
+        padding-bottom: 72px;
+    }
+
+    /* .disable-container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .container__mobile{
+        padding-left: 16px;
+        padding-right: 16px;
+    } */
+
+    .select, .select__posotion {
+        min-width: 0;
+        width: 100%;
+        max-width: 368px;
+    }
+
+    #modal-9{
+        overflow: auto;
+        height: 100vh;;
+    }
+    /* #modal-9 > div{
+    height: 100vh;
+    } */
+    #modal-9 ul,li{
+        padding-left: 0;
+            /* list-style-type:none; */
+        font-size: 16px;
+
+    }
+
+    #modal-9Mobile{
+        list-style-type: none;
+    }
+
+    .selectPosMobile{
+        display: block;
+    }
+    .select__posotion{
+        display: block;
+    }
+
+    #selectPosMobile{
+        display: block;
+    }
+
+    .select__posotion {
+        display: none;
+    }
+
+    .modal__content{
+        position: absolute;
+        top: 0;
+    }
+
+}
+
+@media(max-width: 767px){
+
+    .desctop__upper-line{
+        display: none;
+    }
+    
+    .mobile-upper__line{
+        display: block;
+        position: relative;
+        top: 0;
+    }
+
+    .cart__text{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .upper-price {
+        text-align: left;
+        margin-left: -4px;
+    }
+
+    .researches__upper-code,.researches__upper-deadline{
+        margin-bottom: 5px;
+    }
+    
+    .cart__btn {
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+    }
+
+    .cart-table__item {
+        padding-bottom: 30px;
+    }
+
+    .selectric{
+        margin-bottom: 19px;
+    }
+    
+    .check-div {
+        margin-bottom: 10px;
+    }
+
+    .cart__checkbox-line{
+        display: block;
+    }
+
+    .cart__submit-btn{
+        width: 100%;
+    }
+
+    .total-price{
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .total__price-text {
+        padding-right: 0px;
+        text-align: left;
+    }
+
+    .cart__checkbox-line {
+        padding-right: 0px;
+    }
+
+    .researches-table__link{
+        margin-right: 0;
+    }
+
 }

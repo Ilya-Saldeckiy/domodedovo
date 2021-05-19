@@ -39,10 +39,12 @@
                         <a class="phone-header__link" href="tel:+74955040249">8 495 504 0249</a>
                         <a class="phone-header__link" href="tel:+74959336666">8 495 933 6666</a>
                     </div>
+                    <button class="btn phone__btn"></button>
                     <div class="btn-position-header">
                         <span class="cart-number">0</span>
                         <button class="btn cart-btn" type="button"></button>
                     </div>
+                    <button class="btn burger"></button>
             </div>
         </section>
         <section class="section__header-menu">
@@ -62,11 +64,18 @@
                 </nav>
             </div>
         </section>
+        <section class="section__mobile__btn">
+            <div class="container btn__container">
+                <button class="btn btn__header btn__header-receive" type="button">Получить результаты</button>
+                <button class="btn btn__header btn__header-sign" type="button">Записаться на&nbsp;приём</button>
+            </div>
+        </section>
     </header>
     <main class="analiz-section">
         <div class="container">
-            <h2 class="main-caption">Заказ №&nbsp;AAB1761890 <span class="caption-line">-</span> <span class="analiz-status">готов</span></h2>
-            <div class="position-personal-info">
+            <h2 class="main-caption number__analiz">Заказ №&nbsp;AAB1761890 <span class="caption-line">-</span> <span class="analiz-status">готов</span></h2>
+        </div>
+            <div class="container position-personal-info">
                 <div class="personal-info">
                     <p class="personal-info__text">Пациент: <span class="personal-info__text-docoration">Ивановский Е. Д.</span></p>
                     <p class="personal-info__text">Пол: <span class="personal-info__text-docoration">Мужской</span></p>
@@ -79,52 +88,55 @@
                      <button class="btn action__link action__link-print" href="#">Распечатать</button>
                 </div>
             </div>
+            <div class="container">
             <div class="analiz-results">
                 <h3 class="analiz__caption">Микроскопическое исследование женского мазка (3&nbsp;точки)</h3>
                 <div class="analiz__description-position">
                     <p class="analiz__text">Код: <span class="analiz__text-decoration">110305</span></p>
                     <p class="analiz__text">Биоматериал: <span class="analiz__text-decoration">Мазок</span></p>
                 </div>
-                <table>
-                    <tr>
-                        <th>Исследование</th>
-                        <th>Результат</th>
-                        <th>Референсные значения</th>
-                        <th>Ед.изм.</th>
-                    </tr>
-                    <tbody>
+                <div class="table__overflov">
+                    <table>
                         <tr>
-                            <td>Влагалище (v)</td>
-                            <td>17,29 <span class="arrow-green">↓</span></td>
-                            <td>19</td>
-                            <td></td>
+                            <th>Исследование</th>
+                            <th>Результат</th>
+                            <th>Референсные значения</th>
+                            <th class="four-th">Ед.изм.</th>
                         </tr>
-                        <tr>
-                            <td>Диплококки (c)</td>
-                            <td>32,10 <span class="arrow-red">↑</span></td>
-                            <td>27,5</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Микрофлора (u)</td>
-                            <td>Палочки</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Слизь (c)</td>
-                            <td>отсутствует</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Эпителиальные клетки (c), в&nbsp;п/зр</td>
-                            <td>не обнаружены</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
+                        <tbody>
+                            <tr>
+                                <td>Влагалище (v)</td>
+                                <td>17,29 <span class="arrow-green">↓</span></td>
+                                <td>19</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Диплококки (c)</td>
+                                <td>32,10 <span class="arrow-red">↑</span></td>
+                                <td>27,5</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Микрофлора (u)</td>
+                                <td>Палочки</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Слизь (c)</td>
+                                <td>отсутствует</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Эпителиальные клетки (c), в&nbsp;п/зр</td>
+                                <td>не обнаружены</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="analiz-results">
                 <h3 class="analiz__caption">Микроскопическое исследование секрета предстательной железы</h3>
@@ -132,46 +144,48 @@
                     <p class="analiz__text">Код: <span class="analiz__text-decoration">110302</span></p>
                     <p class="analiz__text">Биоматериал: <span class="analiz__text-decoration">Секрет предстательной железы</span></p>
                 </div>
-                <table>
-                    <tr>
-                        <th>Исследование</th>
-                        <th>Результат</th>
-                        <th>Референсные значения</th>
-                        <th>Ед.изм.</th>
-                    </tr>
-                    <tbody>
+                <div class="table__overflov">
+                    <table>
                         <tr>
-                            <td>Амилоидные тельца</td>
-                            <td>отсутствуют</td>
-                            <td>отсутствуют</td>
-                            <td>в п/зр</td>
+                            <th>Исследование</th>
+                            <th>Результат</th>
+                            <th>Референсные значения</th>
+                            <th class="four-th">Ед.изм.</th>
                         </tr>
-                        <tr>
-                            <td>Диплококки</td>
-                            <td>не обнаружены</td>
-                            <td>не обнаружены</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Кристаллы Беттхера</td>
-                            <td>отсутствуют</td>
-                            <td>Отсутствуют / Единичные</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Лейкоциты</td>
-                            <td>0-1</td>
-                            <td>До 10 в п/зр</td>
-                            <td>в п/зр</td>
-                        </tr>
-                        <tr>
-                            <td>Лецитиновые зерна</td>
-                            <td>отсутствуют</td>
-                            <td>много</td>
-                            <td>кол-во</td>
-                        </tr>
-                    </tbody>
-                </table>
+                        <tbody>
+                            <tr>
+                                <td>Амилоидные тельца</td>
+                                <td>отсутствуют</td>
+                                <td>отсутствуют</td>
+                                <td>в п/зр</td>
+                            </tr>
+                            <tr>
+                                <td>Диплококки</td>
+                                <td>не обнаружены</td>
+                                <td>не обнаружены</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Кристаллы Беттхера</td>
+                                <td>отсутствуют</td>
+                                <td>Отсутствуют / Единичные</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Лейкоциты</td>
+                                <td>0-1</td>
+                                <td>До 10 в п/зр</td>
+                                <td>в п/зр</td>
+                            </tr>
+                            <tr>
+                                <td>Лецитиновые зерна</td>
+                                <td>отсутствуют</td>
+                                <td>много</td>
+                                <td>кол-во</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="analiz-results last-block">
                 <h3 class="analiz__caption">Флороценоз и&nbsp;NCMT и&nbsp;Микроскопия</h3>
@@ -179,46 +193,48 @@
                     <p class="analiz__text">Код: <span class="analiz__text-decoration">310004</span></p>
                     <p class="analiz__text">Биоматериал: <span class="analiz__text-decoration">Мазок, Мазок из&nbsp;влагалища</span></p>
                 </div>
-                <table>
-                    <tr>
-                        <th>Исследование</th>
-                        <th>Результат</th>
-                        <th>Референсные значения</th>
-                        <th>Ед.изм.</th>
-                    </tr>
-                    <tbody>
+                <div class="table__overflov">
+                    <table>
                         <tr>
-                            <td>Влагалище</td>
-                            <td>1</td>
-                            <td></td>
-                            <td></td>
+                            <th>Исследование</th>
+                            <th>Результат</th>
+                            <th>Референсные значения</th>
+                            <th class="four-th">Ед.изм.</th>
                         </tr>
-                        <tr>
-                            <td>Диплококки (c)</td>
-                            <td>не обнаружены</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Диплококки (v)</td>
-                            <td>не обнаружены</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Дрожжеподобные грибы (c)</td>
-                            <td>не обнаружены</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Дрожжеподобные грибы (v)</td>
-                            <td>не обнаружены</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
+                        <tbody>
+                            <tr>
+                                <td>Влагалище</td>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Диплококки (c)</td>
+                                <td>не обнаружены</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Диплококки (v)</td>
+                                <td>не обнаружены</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Дрожжеподобные грибы (c)</td>
+                                <td>не обнаружены</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Дрожжеподобные грибы (v)</td>
+                                <td>не обнаружены</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <p class="analiz__alert-text">Результат лабораторного исследования не&nbsp;является диагнозом, интерпретация результатов проводится с&nbsp;учетом клинических проявлений и&nbsp;данных анамнеза.</p>
         </div>
