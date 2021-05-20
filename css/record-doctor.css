@@ -226,6 +226,10 @@
     margin-top: 31px;
 }
 
+.record__doctors-btn-submit:hover{
+    background-color: #1fa0aa;
+}
+
 
 @media (max-width: 1279px){
     .container{
