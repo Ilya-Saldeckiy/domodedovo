@@ -168,6 +168,10 @@
         overflow: auto;
     }
 
+    .mobile-complex, .mobile-deases, .mobile-group{
+        padding-bottom: 46px;
+    }
+
 }
 
 
