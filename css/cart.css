@@ -661,4 +661,13 @@
         margin-right: 0;
     }
 
+    .container__mobile{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .cart__btn{
+        right: 16px;
+    }
+
 }
