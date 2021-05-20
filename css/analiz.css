@@ -164,6 +164,10 @@
         display: none;
     }
 
+    .mobile-complex, .mobile-deases, .mobile-group{
+        overflow: auto;
+    }
+
 }
 
 
