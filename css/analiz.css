@@ -172,6 +172,11 @@
         padding-bottom: 46px;
     }
 
+    .filter__popup-footer{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
 }
 
 
@@ -255,6 +260,16 @@
 
     .mobile-complex, .mobile-deases, .mobile-group{
         padding-bottom: 46px;
+    }
+
+    .filter__popup-footer-btn:first-child {
+        max-width: 145px;
+        width: 100%;
+    }
+
+    .filter__popup-close{
+        top: 16px;
+        right: 16px;
     }
 
 
