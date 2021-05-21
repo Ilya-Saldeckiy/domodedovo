@@ -128,7 +128,7 @@
         background-color: #fff;
         padding-top: 20px;
         padding-bottom: 20px;
-        height: 100vh;
+        height: 100%;
         overflow-y: scroll;
         display: none;
     }
@@ -169,7 +169,7 @@
     }
 
     .mobile-complex, .mobile-deases, .mobile-group{
-        padding-bottom: 69px;
+        padding-bottom: 40px;
     }
 
     .filter__popup-footer{
@@ -259,7 +259,7 @@
     }
 
     .mobile-complex, .mobile-deases, .mobile-group{
-        padding-bottom: 69px;
+        padding-bottom: 40px;
     }
 
     .filter__popup-footer-btn:first-child {
